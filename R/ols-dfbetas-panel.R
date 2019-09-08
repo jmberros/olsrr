@@ -82,7 +82,8 @@ ols_plot_dfbetas <- function(model) {
   }
 
   plots <- marrangeGrob(myplots, nrow = 2, ncol = 2)
-  plots
+  # plots
+  return (myplots)
 
 }
 

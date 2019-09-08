@@ -34,7 +34,7 @@ ols_plot_reg_line <- function(response, predictor) {
     geom_point(data = d2, aes(x = x, y = y), color = "red", shape = 2, size = 3) +
     geom_smooth(method = "lm", se = FALSE)
 
-  print(p)
+  return (p)
 
 }
 

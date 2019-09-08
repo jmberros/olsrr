@@ -34,8 +34,7 @@ ols_plot_resid_box <- function(model) {
     xlab(" ") + ylab("Residuals") + ggtitle("Residual Box Plot") +
     theme(axis.text.x = element_blank())
 
-  print(p)
-
+  return (p)
 }
 
 

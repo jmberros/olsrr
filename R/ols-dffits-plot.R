@@ -94,7 +94,7 @@ ols_plot_dffits <- function(model) {
       label = paste("Threshold:", round(dffits_t, 2))
     )
 
-  suppressWarnings(print(p))
+  # suppressWarnings(print(p))
   colnames(f) <- c("observation", "dffits")
   result <- list(outliers = f, threshold = round(dffits_t, 2), plot = p)
   invisible(result)

@@ -40,7 +40,7 @@ ols_plot_resid_fit <- function(model) {
     ggtitle("Residual vs Fitted Values") +
     geom_hline(yintercept = 0, colour = "red")
 
-  print(p)
+  return (p)
 
 }
 

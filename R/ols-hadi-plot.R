@@ -46,7 +46,7 @@ ols_plot_hadi <- function(model) {
     xlab("Observation") + ylab("Hadi's Measure") +
     ggtitle("Hadi's Influence Measure")
 
-  print(p)
+  return (p)
 
 }
 

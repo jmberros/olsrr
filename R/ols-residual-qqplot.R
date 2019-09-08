@@ -33,7 +33,8 @@ ols_plot_resid_qq <- function(model) {
     xlab("Theoretical Quantiles") + ylab("Sample Quantiles") +
     ggtitle("Normal Q-Q Plot")
 
-  print(p)
+  # print(p)
+  return (p)
 
 }
 

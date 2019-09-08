@@ -72,7 +72,7 @@ ols_plot_resid_lev <- function(model) {
       family = "serif", fontface = "italic", colour = "darkred",
       label = ann_label)
 
-  suppressWarnings(print(p))
+  # suppressWarnings(print(p))
   result <- list(leverage = f, threshold = g$lev_thrsh, plot = p)
   invisible(result)
 

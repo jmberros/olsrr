@@ -36,7 +36,7 @@ ols_plot_resid_hist <- function(model) {
     geom_line(data = d2, aes(x = x, y = y), color = "#0000A0", size = 1.2) +
     xlab("Residuals") + ggtitle("Residual Histogram")
 
-  print(p)
+  return (p)
 
 }
 

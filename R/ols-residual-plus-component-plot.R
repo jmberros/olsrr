@@ -44,8 +44,9 @@ ols_plot_comp_plus_resid <- function(model) {
     myplots[[i]] <- p
   }
 
-  result <- marrangeGrob(myplots, nrow = 2, ncol = 2)
-  result
+  # result <- marrangeGrob(myplots, nrow = 2, ncol = 2)
+  # result
+  return (myplots)
 
 }
 

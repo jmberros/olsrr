@@ -178,8 +178,9 @@ ols_plot_diagnostics <- function(model) {
     plot_9 = p9, plot_10 = p10
   )
 
-  result_plot <- marrangeGrob(result, nrow = 2, ncol = 2)
-  result_plot
+  # result_plot <- marrangeGrob(result, nrow = 2, ncol = 2)
+  # result_plot
+  return (result)
 }
 
 

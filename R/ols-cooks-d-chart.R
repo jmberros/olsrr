@@ -66,7 +66,7 @@ ols_plot_cooksd_chart <- function(model) {
       label = paste("Threshold:", round(k$ts, 3))
     )
 
-  suppressWarnings(print(p))
+  # suppressWarnings(print(p))
   result <- list(outliers = f, threshold = k$ts, plot = p)
   invisible(result)
 

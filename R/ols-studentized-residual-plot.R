@@ -71,7 +71,7 @@ ols_plot_resid_stud <- function(model) {
       label = paste0("Threshold: abs(", 3, ")")
     )
 
-  suppressWarnings(print(p))
+  # suppressWarnings(print(p))
   result <- list(outliers = f, threshold = 3, plot = p)
   invisible(result)
 

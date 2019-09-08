@@ -34,7 +34,7 @@ ols_plot_resid_pot <- function(model) {
     xlab("Residual") + ylab("Potential") +
     ggtitle("Potential-Residual Plot")
 
-  print(p)
+  return (p)
 
 }
 

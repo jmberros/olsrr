@@ -85,8 +85,7 @@ ols_plot_fm <- function(model) {
     xlim(c(-0.2, 1.2)) + ylim(c(ymin, ymax)) + xlab("Proportion Less") +
     ylab("Fit - Mean") + ggtitle("Residual Fit Spread Plot")
 
-  print(p)
-
+  return (p)
 }
 
 
@@ -108,7 +107,7 @@ ols_plot_resid_spread <- function(model) {
     ylim(c(ymin, ymax)) + xlim(c(-0.2, 1.2)) + ylab("Residual") +
     xlab("Proportion Less") + ggtitle("Residual Fit Spread Plot")
 
-  print(p)
+  return (p)
 
 }
 

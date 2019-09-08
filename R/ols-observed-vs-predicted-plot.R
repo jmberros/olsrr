@@ -46,7 +46,7 @@ ols_plot_obs_fit <- function(model) {
     geom_segment(data = d, aes(x = min(x), y = min(y), xend = max(x),
                                yend = max(y)), colour = "red")
 
-  print(p)
+  return (p)
 
 }
 
